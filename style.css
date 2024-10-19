@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    line-height: 1.6;
+}
+header {
+    background: #378;
+    color: #8B0000;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #9ACD32;
+    text-decoration: none;
+}
+
+main {
+    padding: 300px;
+    text-align: center;
+    background: #000000;
+    color: #00FA9A;
+}
+
+footer {
+    background: #000000;
+    color: #00FA9A;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
